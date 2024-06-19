@@ -28,3 +28,8 @@ let calcFahrenheit = (celsius) => 9 / 5 * celsius + 32
 
 console.log("Crear Funcion flecha que convierta unidades de temp celcius a Farenheit")
 console.log(calcFahrenheit(50))
+
+let string = "WASD"
+const number = 17
+let boolean = true
+const nulo = null
