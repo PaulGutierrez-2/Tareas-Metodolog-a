@@ -201,10 +201,11 @@ console.log(filterLevelSubject(subjects, 1))
 array y devolver únicamente la parte entera del promedio.*/
 
 function calcAverage(arr) {
-    return arr.reduce((a, b) => a + b) / arr.length
+    let result = arr.reduce((a, b) => a + b) / arr.length
+    return Math.floor(result)
 }
 
-let list = [15, 16, 17, 18, 19];
+let list = [15.6, 16.2, 17.8, 18.156, 19.1];
 let list2 = [1, 2, 3, 4, 5]
 
 console.log('------------------------EJERCICIO 3------------------------')
